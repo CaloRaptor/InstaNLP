@@ -1,6 +1,34 @@
+# Archivos de Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Entornos
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+
+# Archivos de entorno
 .env
+
+# Archivos de datos (ignorar datasets pesados)
 data/*
 !data/.gitkeep
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# Archivos de notebooks de checkpoints
+.ipynb_checkpoints/
+
+# Archivos de VSCode / IDE
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
